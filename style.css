@@ -1,0 +1,258 @@
+body {
+  background-image: url(fundo.PNG);
+  background-size: cover;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.caio {
+  font-size: 21px;
+}
+
+#tudo {
+  background-color: #343434;
+  box-shadow: 2px 2px 50px #181717;
+  height: 70vh;
+  width: 75%;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  column-gap: 10%;
+  margin: auto;
+  margin-top: 7%;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.Ola {
+  font-size: 45px;
+}
+
+b {
+  color: #D27304;
+}
+
+.eu {
+  margin-top: 140px;
+  margin-left: 80px;
+}
+
+.redes {
+  width:100%;
+  background-color: #282828;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 24.5%;
+  border-radius: 10px 80px 80px 80px;
+  gap: 8%;
+}
+
+#e-mail {
+  background-color: #D27304;
+  height: 37.5px;
+  width: 37.5px;
+  border-radius: 300px;
+  transition: 0.2s;
+}
+
+#insta {
+  background-color: #D27304;
+  height: 37.5px;
+  width: 37.5px;
+  border-radius: 300px;
+  transition: 0.2s;
+}
+
+#linked {
+  background-color: #D27304;
+  height: 37.5px;
+  width: 37.5px;
+  border-radius: 300px;
+  transition: 0.2s;
+}
+
+#whats {
+  background-color: #D27304;
+  height: 37.5px;
+  width: 37.5px;
+  border-radius: 300px;
+  transition: 0.2s;
+}
+
+
+#whats:hover,#linked:hover,#e-mail:hover,#insta:hover {
+  border-radius: 10px;
+  background-color: orange;
+  transition: 0.2s;
+}
+
+.circulos {
+  margin-top: 100px;
+  
+}
+
+.textos {
+  background-color: #D27304;
+  border-radius: 30px;
+  color: black;
+  height: 10%;
+}
+
+.circulos > nav {
+  background-color: #D27304;
+  border-radius: 300px;
+}
+
+nav > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+  
+.circul {
+    height: 60%;
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 0.5fr 0.5fr 5fr;
+    grid-template-rows:  1.5fr 1fr 1.5fr 1fr fr;
+    margin: auto;
+}
+  
+  .projetos {
+    background-color: #D27304;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    border-radius: 300px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    
+  }
+  
+  .curriculo {
+    background-color: #D27304;
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    border-radius: 320px;
+    transition: 0.3s;
+    grid-area: 3 / 7 / 6 / 8;
+    margin-left: 230px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #um {
+    background-color: #D27304;
+    width: 85px;
+    height: 85px;
+    border-radius: 300px;
+    transition: 0.3s;
+    grid-area: 3 / 3 / 4 / 5;
+  }
+  
+  #dois {
+    background-color: #D27304;
+    width: 80px;
+    height: 80px;
+    border-radius: 300px;
+    transition: 0.3s;
+    grid-area: 1 / 8 / 1 / 8;
+  }
+
+  #tres {
+    background-color: #D27304;
+    width: 30px;
+    height: 30px;
+    border-radius: 300px;
+    transition: 0.3s;
+    grid-area: 3 / 1 / 4 / 1;
+  }
+
+  #quatro {
+    background-color: #D27304;
+    width: 45px;
+    height: 45px;
+    border-radius: 300px;
+    transition: 0.3s;
+    grid-area: 4 / 5 / 6 / 5;
+    
+  }
+
+  #cinco {
+    background-color: #D27304;
+    width: 39px;
+    height: 39px;
+    border-radius: 300px;
+    transition: 0.3s;
+    grid-area: 2 / 6 / 2 / 6;
+  }
+
+  .circul > nav:hover {
+    transform: scale(1.1);
+    background-color: #343434;
+    transition: 0.3s;
+  }
+
+  .curriculo:hover, .projetos:hover {
+    transform: scale(1.1);
+  }
+
+  a > p {
+    color: black;
+    font-weight: bold;
+    font-size: 19;
+    margin-top: 10px;
+    margin: 12px;
+    margin-top: 35px;
+  }
+
+  a {
+    text-decoration: none;
+    
+  }
+
+  @media ( max-width: 450px ) {
+
+    body{
+      height: fit-content;
+    }
+    .redes {
+      width:100%;
+      height: 10.5%;
+    }
+    #insta {
+      height: 20px;
+      width: 30px;
+      margin: 5px;
+    }
+    #whats {
+      height: 20px;
+      width: 30px;
+      margin: 5px;
+    }
+    #linked {
+      height: 20px;
+      width: 30px;
+      margin: 5px;
+    }
+    #e-mail {
+      height: 20px;
+      width: 30px;
+      margin: 5px;
+    }
+    a > img {
+      height: 10px;
+      width: 10px;
+    }
+  }

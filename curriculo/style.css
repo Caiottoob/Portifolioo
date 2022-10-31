@@ -1,0 +1,71 @@
+body {
+    background-image: url(fundo.PNG);
+    background-size: cover ;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 40px;
+  }
+  
+  
+  .pro {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+  }
+  
+  #cabecario {
+    display: flex;
+    gap: 20px;
+    height: 7vh;
+  }
+  
+  #home {
+    background-color: #2C2C2C;
+    height: 100%;
+    width: 25%;
+    border-radius: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #curriculo {
+    background-color: #2C2C2C;
+    height: 100%;
+    width: 65%;
+    border-radius: 300px;
+    color: #D27304;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+  }
+
+  #cabecario > a {
+    transition: 0.4s;
+  }
+
+  #cabecario > a:hover {
+    background-color: #1b1a1a;
+  }
+
+  .cu {
+    grid-column-start: 2;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cur {
+    height: 700px;
+    box-shadow: 4px 4px 40px black;
+    margin-top: 50px;
+    transition: 1s;
+  }
+
+  .cur:hover {
+    transform: scale(1.1);
+  }
